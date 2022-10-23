@@ -1,5 +1,5 @@
 ##############################################################################
-# Makefile for sort application
+# Makefile for hash application
 # CMP_SC 3050
 # Fall 2022
 # By Jim Ries (RiesJ@missouri.edu)
