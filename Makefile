@@ -12,6 +12,8 @@ LDFLAGS = -lm -lcs3050 -L.
 	@echo Compiling $^ ...
 	@$(CC) $(CFLAGS) $^
 
+default: myhash jimrhash
+
 myhash : main.o hash.o
 	@echo Linking $@ ...
 	@$(CC) $^ -o $@
